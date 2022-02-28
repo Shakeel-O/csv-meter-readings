@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const initRoutes = require("./routes/account.routes");
-const db = require("./src/models");
+const initRoutes = require("./routes/CSV.routes");
+const db = require("./models");
 
 global.__basedir = __dirname + "/..";
 

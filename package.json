@@ -7,20 +7,18 @@
     "sequelize": "node_modules/.bin/sequelize",
     "migrate": "npm run sequelize db:migrate",
     "seed": "npm run sequelize db:seed:all",
-    "start": "node server.js",
+    "start": "node src/server.js",
     "test": "NODE_ENV=test node app.test.js"
   },
   "keywords": [
-    "node js",
-    "upload",
-    "import",
-    "download",
+    "api",
     "csv",
-    "file",
-    "mysql",
     "database",
-    "rest",
-    "api"
+    "import",
+    "node js",
+    "sqlite",
+    "sequelize",
+    "upload"
   ],
   "author": "Shak",
   "license": "ISC",
